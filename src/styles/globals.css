@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+.menu-bg-xl {
+    clip-path: polygon(0 60%, 0 0, 100% 0, 100% 60%, 20% 60%, 17% 100%, 3% 100%);
+}
+.menu-bg-2xl {
+    clip-path: polygon(0 60%, 0 0, 100% 0, 100% 60%, 20% 60%, 17% 100%, 3% 100%);
+}
+.section-padding {
+    @apply py-[20px] sm:py-[20px] md:py-[40px] lg:py-[60px] xl:py-[80px] 2xl:py-[100px] px-[20px] sm:px-[20px] md:px-[30px] lg:px-[30px] xl:px-[40px] 2xl:px-[50px]
+}
+}
+
+/* .menu-bg {
+    clip-path: polygon(0 75%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 75%, 85% 75%, 35% 75%, 20% 75%, 17% 100%, 9% 100%, 3% 100%);
+} */
